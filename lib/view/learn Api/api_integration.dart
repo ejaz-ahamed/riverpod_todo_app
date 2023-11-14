@@ -37,8 +37,14 @@ class HomePage extends StatelessWidget {
                 return Card(
                   color: Colors.deepPurple,
                   child: ListTile(
-                    title: Text(data.title),
-                    subtitle: Text(data.id.toString()),
+                    title: Text(
+                      data.title,
+                      style: const TextStyle(fontSize: 25),
+                    ),
+                    subtitle: Text(
+                      data.id.toString(),
+                      style: const TextStyle(fontSize: 20),
+                    ),
                   ),
                 );
               },
