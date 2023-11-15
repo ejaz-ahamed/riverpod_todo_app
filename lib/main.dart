@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:state_management/view/learn%20Api/api_homepage_provider.dart';
 import 'package:state_management/view/learn%20Api/api_integration.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(),
-      home: const HomePage(),
+      home: const HomePageFutureProvider(),
     );
   }
 }
